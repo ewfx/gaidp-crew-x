@@ -22,7 +22,7 @@ It uses the Gen AI- Gemini AI to parse the rules and validate the Data set provi
 📹 [Video Demo](#) (if applicable)  
 🖼️ Screenshots:
 
-![Screenshot 1]([link-to-image](https://github.com/ewfx/gaidp-crew-x/tree/main/artifacts/demo))
+![Screenshot 1] [https://github.com/ewfx/gaidp-crew-x/tree/main/artifacts/demo ]
 please refer to Demo folder
 ## 💡 Inspiration
 We are from CCIBT and recently worked on automating Data validations in regulatory data file using Alteryx, Other team members work on Regulatory reporting like FR Y 14 
