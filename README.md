@@ -53,7 +53,7 @@ pip install requests
 pip install pandas
    ```
 3. Run the project  
-**   Front End:**
+****   Front End:****
 1.update the app in dataprofiler folder 
 2. open node js command prompt
 3. go to data profiler folder
