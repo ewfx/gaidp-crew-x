@@ -53,10 +53,15 @@ pip install requests
 pip install pandas
    ```
 3. Run the project  
- 1. Clone the Git
- 2. Go to node.js command prompt and navigate to data_profiler
-3. cd data_profiler
+**   Front End:**
+1.update the app in dataprofiler folder 
+2. open node js command prompt
+3. go to data profiler folder
+4.then type npm start
 
+**Back end:**
+1. In cmd prompt go to the path where the main.py code is then enter below command
+python -m uvicorn  main:app --reload
 
 ## 🏗️ Tech Stack
 - 🔹 Frontend: React  
