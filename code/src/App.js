@@ -17,7 +17,7 @@ function App() {
 
   const handleUpload = async () => {
     if (!pdfFile || !csvFile) {
-      alert("Please select both PDF and CSV files!");
+      alert("Upload both PDF and CSV files!");
       return;
     }
 
@@ -41,7 +41,7 @@ function App() {
   // It first attempts to parse the text as JSON, and if that fails, it falls back to a line-by-line conversion.
   const convertToCSV = (textResponse) => {
     if (!textResponse || textResponse.trim() === "") {
-      return "No data available";
+      return "No data available in the input file";
     }
 
     try {
@@ -80,15 +80,15 @@ function App() {
 
   return (
     <div style={styles.container}>
-      <h1 style={styles.title}>Data profiling using GenAI</h1>
-      <p style={styles.subtitle}>Upload your Regulations PDF and Data CSV files for rule generation and validation.</p>
+      <h1 style={styles.title}>Gen AI-Based - Regulatory Reporting Data Validation Tool </h1>
+      <p style={styles.subtitle}>This tool accepts two files. File 1: Regulatory rules PDF file and File2: Data that need to be validated against the rules.Please upload the files</p>
       <div style={styles.uploadContainer}>
         <div style={styles.inputGroup}>
-          <label style={styles.label}>Upload Regulations PDF File:</label>
+          <label style={styles.label}>Upload Regulations PDF File</label>
           <input type="file" accept="application/pdf" onChange={handlePdfChange} style={styles.input} />
         </div>
         <div style={styles.inputGroup}>
-          <label style={styles.label}>Upload Dataset File:</label>
+          <label style={styles.label}>Upload Dataset File</label>
           <input type="file" accept=".csv" onChange={handleCsvChange} style={styles.input} />
         </div>
         <button onClick={handleUpload} style={styles.button}>

@@ -22,8 +22,8 @@ app.add_middleware(
 )
 ## call gemini API
 # Set up Gemini API
-api_key = ""
-gemini_api_endpoint = ""
+api_key = "AIzaSyC7DQQXZ3M47x6abk4WpVtSLTFz_t36fTE"
+gemini_api_endpoint = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent"
 #api_key = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=AIzaSyC7DQQXZ3M47x6abk4WpVtSLTFz_t36fTE" #api_key
 #gemini_api_endpoint = "https://api.gemini.com/v1/" #gemini end point
 prompt = "Consider you are an expert in financial data validation and regulatory compliance. I have a JSON file containing financial data information published by the Federal Reserve. Your task is to analyze this data and generate key data validation requirements and profiling rules. Specifically:Identify Data Validation Requirements:Define allowable value ranges, formats, and data types for each field.Detect mandatory vs. optional fields.Highlight constraints such as unique identifiers, date formats, and numerical precision.Generate Profiling Rules:Identify patterns and distribution of values for key fields.Suggest cross-field relationships (e.g., total assets should be equal to the sum of liabilities and equity).Highlight outlier detection criteria based on historical or expected distributions.Ensure Compliance with Regulatory Standards:Reference industry best practices for financial data reporting.Identify fields that must adhere to specific regulatory thresholds or consistency checks.Using the above, provide structured rules in a readable format that can be used for automated data validation and anomaly detection. Output should be structured in a clear and actionable manner, preferably as JSON validation rules or plain text descriptions."
