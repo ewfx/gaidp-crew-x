@@ -14,7 +14,8 @@
 ---
 
 ## 🎯 Introduction
-A brief overview of your project and its purpose. Mention which problem statement are your attempting to solve. Keep it concise and engaging.
+Gen AI based Data profiling tool, It accepts two inputs 1. Regulations PDF 2. Data set that need to validated against the regulation
+It uses the Gen AI- Gemini AI to parse the rules and validate the Data set provided.
 
 ## 🎥 Demo
 🔗 [Live Demo](#) (if applicable)  
@@ -24,7 +25,7 @@ A brief overview of your project and its purpose. Mention which problem statemen
 ![Screenshot 1](link-to-image)
 
 ## 💡 Inspiration
-What inspired you to create this project? Describe the problem you're solving.
+We are from CCIBT and recently worked on automating Data validations in regulatory data file using Alteryx, Other team members work on Regulatory reporting like FR Y 14 
 
 ## ⚙️ What It Does
 Explain the key features and functionalities of your project.
@@ -33,28 +34,38 @@ Explain the key features and functionalities of your project.
 Briefly outline the technologies, frameworks, and tools used in development.
 
 ## 🚧 Challenges We Faced
-Describe the major technical or non-technical challenges your team encountered.
+We are new to Gen AI- this is a good learning exploring API and Gen AI
 
 ## 🏃 How to Run
 1. Clone the repository  
    ```sh
-   git clone https://github.com/your-repo.git
+   git clone https://github.com/ewfx/gaidp-crew-x.git
    ```
 2. Install dependencies  
-   ```sh
-   npm install  # or pip install -r requirements.txt (for Python)
+pip install requests  
+pip install uvicorn
+pip install google.generativeai
+pip install pdfplumber
+npm install axios
+npx create-react-app@latest data_profiler
+pip install fastapi   
+pip install requests  
+pip install pandas
    ```
 3. Run the project  
-   ```sh
-   npm start  # or python app.py
-   ```
+ 1. Clone the Git
+ 2. Go to node.js command prompt and navigate to data_profiler
+3. cd data_profiler
+
 
 ## 🏗️ Tech Stack
-- 🔹 Frontend: React / Vue / Angular
-- 🔹 Backend: Node.js / FastAPI / Django
-- 🔹 Database: PostgreSQL / Firebase
-- 🔹 Other: OpenAI API / Twilio / Stripe
+- 🔹 Frontend: React  
+- 🔹 Backend: Python
+- 🔹 Database: None
+- 🔹 Other: Gemini API
 
 ## 👥 Team
-- **Your Name** - [GitHub](#) | [LinkedIn](#)
-- **Teammate 2** - [GitHub](#) | [LinkedIn](#)
+- CREW X - [GitHub](#) | [LinkedIn](#)
+- Gopalakrishnan Venkataraman - [GitHub](#) | [LinkedIn](#)
+- Robin Verma
+- Vikram Bollipalli
