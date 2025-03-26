@@ -1,4 +1,4 @@
-# 🚀 Project Name
+# 🚀 Project Name : Gen AI-Based - Regulatory Reporting Data Validation Tool
 
 ## 📌 Table of Contents
 - [Introduction](#introduction)
@@ -23,15 +23,15 @@ It uses the Gen AI- Gemini AI to parse the rules and validate the Data set provi
 🖼️ Screenshots:
 
 ![Screenshot 1](link-to-image)
-
+please refer to Demo folder
 ## 💡 Inspiration
 We are from CCIBT and recently worked on automating Data validations in regulatory data file using Alteryx, Other team members work on Regulatory reporting like FR Y 14 
 
 ## ⚙️ What It Does
-Explain the key features and functionalities of your project.
+It simple, accepts two files and identifes the discrepancies
 
 ## 🛠️ How We Built It
-Briefly outline the technologies, frameworks, and tools used in development.
+We used gemini AI to parse the PDF file and CSV input file into JSON file format. We passed the JSON files to Gemin AI and prompted it to be a Regulatory expert and identify issues in the file
 
 ## 🚧 Challenges We Faced
 We are new to Gen AI- this is a good learning exploring API and Gen AI
@@ -69,3 +69,5 @@ pip install pandas
 - Gopalakrishnan Venkataraman - [GitHub](#) | [LinkedIn](#)
 - Robin Verma
 - Vikram Bollipalli
+- Shardul Bisht
+- Ekta Singh
