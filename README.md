@@ -31,10 +31,11 @@ We are from CCIBT and recently worked on automating Data validations in regulato
 It simple, accepts two files and identifes the discrepancies
 
 ## 🛠️ How We Built It
-We used gemini AI to parse the PDF file and CSV input file into JSON file format. We passed the JSON files to Gemin AI and prompted it to be a Regulatory expert and identify issues in the file
+We used Python pdfplumber librabry  to parse the PDF file and converted it and the input  CSV input file into JSON file format. We passed the JSON files to Gemini AI and prompted it to be a Regulatory expert and identify issues in the file
 
 ## 🚧 Challenges We Faced
 We are new to Gen AI- this is a good learning exploring API and Gen AI
+Limitations with this approach: The PDF parser is need to be customized for different PDF files, we can use gen AI to parse the PDF files as well.
 
 ## 🏃 How to Run
 1. Clone the repository  
